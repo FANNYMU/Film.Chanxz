@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f0f0f;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+}
+
+.h11 {
+    color: #333;
+}
+
+form {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    max-width: 500px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="file"] {
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.h11 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+
+.video-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.video-item {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.video-item img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.video-item h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.video-item p {
+    margin: 0;
+}
+
+.video-item small {
+    color: #888;
+    font-size: 12px;
+}
+
+
+

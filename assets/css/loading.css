@@ -1,0 +1,24 @@
+/* CSS untuk gaya loading */
+.loading {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0f0f0f; /* Warna latar belakang dengan transparansi */
+    z-index: 99999; /* Z-index tinggi untuk menampilkan di atas konten lain */
+    opacity: 1;
+    transition: opacity 5.0s ease-out; 
+}
+
+.loading.hidden {
+    opacity: 0; /* Setelah elemen disembunyikan, atur opasitasnya menjadi 0 */
+    pointer-events: none; /* Untuk mencegah interaksi dengan elemen saat transisi */
+}
+
+.loading-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
